@@ -1,0 +1,30 @@
+{
+  "name": "Simple-implementation-of-VUE",
+  "version": "1.0.0",
+  "description": "Simple realization and understanding of Vue mechanism",
+  "main": "vue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --open --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeahPotato/Simple-implementation-of-VUE.git"
+  },
+  "keywords": [],
+  "author": "joke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeahPotato/Simple-implementation-of-VUE/issues"
+  },
+  "homepage": "https://github.com/YeahPotato/Simple-implementation-of-VUE#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.11.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
